@@ -6,9 +6,16 @@
     margin: 0.1% auto;
 }
 
+.navigation__unorderedList {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+
 .navigation__element {
     position: relative;
     list-style-type: none;
+    font-size: 120%;
     margin: 0.1%;
     left: -2%;
 }
