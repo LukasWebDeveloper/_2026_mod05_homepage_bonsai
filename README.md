@@ -5,9 +5,12 @@
 ## Below is GIF my site
 
 ![gifSite](/images/gifSite.gif)
+## Below is SCREENSHOT link SHERE
 
+![screenShootLinkShere](/images/screenShootLinkShare.png)
 ### What technologies there is used
 - HTML
 - CSS
 - JS
 - BEM
+- GIF
