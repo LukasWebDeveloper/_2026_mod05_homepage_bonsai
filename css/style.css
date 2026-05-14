@@ -7,9 +7,14 @@ html {
 }
 
 .body {
-    /* background-color: rgb(48, 77, 16); */
-    font-family: "Lato", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* transform: translate(30%, 0); */
     margin: 0 auto;
+    align-items: center;
+    font-family: "Lato", sans-serif;
+    min-width: 320px;
     max-width: 1200px;
     background-image: url(../images/backgroundImageBonsaiTree.png);
     background-attachment: fixed;
@@ -18,8 +23,10 @@ html {
 }
 
 .body__container {
+    width: 90%;
     margin: 0 auto;
     padding: 0.5% 1%;
     background-color: rgb(48, 77, 16);
+    min-width: 320px;
 }
 
