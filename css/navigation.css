@@ -6,6 +6,21 @@
     margin: 0.1% auto;
 }
 
+@media screen and (max-width: 400px) {
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        line-height: 1.3;
+        font-size: 10px;
+    }
+    .navigation__unorderedList {
+        display: flex;
+        flex-direction: row;
+        padding-left: 5%;
+        margin: 0 auto;
+    }
+}
+
 .navigation__unorderedList {
     display: flex;
     justify-content: space-evenly;
